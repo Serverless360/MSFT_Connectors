@@ -1,0 +1,9 @@
+{
+  "apiDefinition": "apiDefinition.swagger.json",
+  "apiProperties": "apiProperties.json",
+  "connectorId": "shared_bam.5f80522904f7374291.5f1e8c7cf53772b4b1",
+  "environment": "Default-fa3c421e-2fde-4cf9-945d-62735cedcad2",
+  "icon": "icon.png",
+  "powerAppsApiVersion": "2016-11-01",
+  "powerAppsUrl": "https://api.powerapps.com"
+}
