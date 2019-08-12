@@ -10,7 +10,7 @@
             "required": "true",
             "tabIndex": 2
           },
-          "description": "The API Key for this api",
+          "description": "The API Key  attained from Serverless360 account",
           "displayName": "API Key",
           "tooltip": "Provide your API Key"
         }

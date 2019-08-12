@@ -15,7 +15,7 @@
         "consumes": [
           "application/json"
         ],
-        "description": "This action will archives messages for a transaction activity",
+        "description": "This action will archive messages in a transaction activity",
         "operationId": "ArchiveActivity",
         "parameters": [
           {
@@ -42,7 +42,7 @@
             }
           },
           {
-            "description": "Provide business process name.",
+            "description": "Business the configured Business Process name.",
             "in": "header",
             "name": "SL360-BusinessProcess",
             "required": true,
@@ -58,7 +58,7 @@
             "x-ms-summary": "SL360-BusinessTransaction"
           },
           {
-            "description": "Specify the name for current stage.",
+            "description": "Specify name of the current stage.",
             "in": "header",
             "name": "SL360-CurrentStage",
             "required": true,
@@ -96,7 +96,7 @@
         "consumes": [
           "application/json"
         ],
-        "description": "This action logs an exception to the transaction activity.",
+        "description": "This action will log an exception to the transaction activity.",
         "operationId": "LogExceptionActivity",
         "parameters": [
           {
@@ -124,7 +124,7 @@
             "x-ms-summary": "SL360-ExceptionCode"
           },
           {
-            "description": "Provide business process name.",
+            "description": "Business the configured Business Process name.",
             "in": "header",
             "name": "SL360-BusinessProcess",
             "required": true,
@@ -181,7 +181,7 @@
             }
           },
           {
-            "description": "Provide business process name.",
+            "description": "Business the configured Business Process name.",
             "in": "header",
             "name": "SL360-BusinessProcess",
             "required": true,
@@ -223,7 +223,7 @@
             "x-ms-visibility": "advanced"
           },
           {
-            "description": "Set this flag as true to archive the message for this particular stage.",
+            "description": "Set this flag true to archive the message in this stage.",
             "enum": [
               "True",
               "False"
